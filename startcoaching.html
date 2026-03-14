@@ -50,7 +50,7 @@
   </nav>
   <main>
     <section class="contact">
-      <form>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <input type="text" name="name" placeholder="Full Name" required>
         <input type="email" name="email" placeholder="Email Address" required>
         <input type="tel" name="phone" placeholder="Phone Number" required>
@@ -72,6 +72,7 @@
           <option value="phone">Phone</option>
           <option value="whatsapp">WhatsApp</option>
         </select>
+        <input type="hidden" name="_redirect" value="https://yourdomain.com/">
         <button type="submit" class="cta">Apply For Online Training</button>
       </form>
       <div class="whatsapp">
@@ -107,6 +108,7 @@
         alert('Please fill out all required fields correctly.');
       }, true);
     });
+  </script>
   </script>
   <script src="theme.js"></script>
 </body>
