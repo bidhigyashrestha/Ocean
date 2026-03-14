@@ -1,0 +1,164 @@
+Create a modern, clean, and professional personal website for a fitness trainer and nutrition coach named Ocean Shrestha. The website should highlight his credentials, accomplishments, coaching philosophy, and services, and convert visitors into online coaching clients.
+
+The design should look minimal, athletic, and premium, similar to top fitness coaching brands.
+
+Basic Information
+Name: Ocean Shrestha
+Profession: Personal Trainer & Nutrition Coach
+Location: Nepal
+Instagram: @am_i_fit_now
+
+Credentials
+Include these certifications and education:
+Precision Nutrition Level 1 Coach
+EREPS Certified Trainer
+ACE CPT (currently pursuing)
+CPR Certified
+Functional Training Specialist – TFA / NAES Nepal
+Diploma in Physiotherapy (in progress)
+
+Expertise
+Highlight expertise in:
+
+Muscle building & hypertrophy training
+
+Fat loss programs
+
+Functional strength training
+
+Injury-aware programming
+
+Mobility training
+
+Nutrition coaching
+
+Training for beginners and general population
+
+Training for elderly clients
+Services Section
+
+Create clear service offerings:
+
+1. Online Personal Training
+
+Custom workout program
+
+Progress tracking
+
+Technique guidance
+
+Weekly check-ins
+
+
+
+2. Nutrition Coaching
+
+Personalized diet plans
+
+Habit coaching
+
+Body composition guidance
+
+
+
+3. Transformation Programs
+
+Fat loss programs
+
+Lean muscle gain programs
+
+
+
+4. Specialized Training
+
+Functional strength
+
+Mobility training
+
+Beginner gym guidance
+
+
+
+
+Products / Digital Programs
+
+Add a section for:
+
+Digital workout programs
+
+Fat loss guides
+
+Muscle building programs
+
+A program called "Usable Abs in 30 Days"
+
+
+About Section
+
+Write a compelling story about:
+
+Ocean starting young in the fitness industry
+
+Becoming a trainer at a young age
+
+Passion for helping people build strength safely
+
+Focus on science-based training and practical nutrition
+
+
+Content / Media
+
+Add a section linking to:
+
+Instagram fitness content
+
+Exercise tutorials
+
+Educational fitness posts
+
+
+Call To Action
+
+Add strong CTAs like:
+
+"Start Coaching With Me"
+
+"Apply For Online Training"
+
+"Get Your Custom Plan"
+
+
+Include a contact form and WhatsApp contact option.
+
+Website Sections
+
+Structure the site like this:
+
+1. Hero section (strong headline + photo)
+
+
+2. About Ocean
+
+
+3. Certifications & credentials
+
+
+4. Services
+
+
+5. Programs / products
+
+
+6. Client results or testimonials
+
+
+7. Instagram content section
+
+
+8. Contact / coaching application
+
+
+
+Design Style
+
+Clean white + black + athletic accent color

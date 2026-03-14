@@ -1,0 +1,357 @@
+
+/* Ocean Shrestha Fitness Website CSS */
+
+:root {
+  --accent: #00bfa6;
+  --black: #111;
+  --white: #fff;
+  --gray: #f7f7f7;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--white);
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header and Hero Section */
+header.hero {
+  background: var(--white);
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.hero-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent);
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0 0.2rem 0;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.location {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Call-to-Action Buttons */
+.cta {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.cta:hover {
+  filter: brightness(0.85);
+  transform: scale(1.04);
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0 0.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.navbar a {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: var(--black);
+}
+
+/* Home Page Matrix Layout */
+.home-matrix {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  grid-template-rows: repeat(3, minmax(110px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 2rem auto 0 auto;
+}
+
+.home-matrix a.cta-matrix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  min-height: 90px;
+  width: auto;
+  height: auto;
+}
+
+.cta-matrix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+  transition: background 0.2s, transform 0.2s;
+  border: none;
+  min-width: 220px;
+  min-height: 90px;
+}
+
+.cta-matrix:hover,
+.cta:hover,
+.cta-matrix[style*="journey"]:hover {
+  background: var(--black) !important;
+  color: #fff !important;
+  filter: none;
+}
+
+/* Button Colors */
+.cta-about {
+  background: #34495e;
+}
+
+.cta-credentials {
+  background: #34495e;
+}
+
+.cta-expertise {
+  background: #34495e;
+}
+
+.cta-services {
+  background: #34495e;
+}
+
+.cta-programs {
+  background: #34495e;
+  color: #fff;
+}
+
+.cta-reviews {
+  background: #34495e;
+}
+
+.cta-contact {
+  background: #34495e;
+}
+
+.cta-coaching {
+  background: #34495e;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+section h2 {
+  color: var(--accent);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* Credentials, Expertise, Programs */
+.credentials ul,
+.expertise ul,
+.programs ul {
+  padding-left: 1.2rem;
+}
+
+.credentials li,
+.expertise li,
+.programs li {
+  margin-bottom: 0.5rem;
+}
+
+/* Services Section */
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.service {
+  background: var(--gray);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  flex: 1 1 220px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.service h3 {
+  margin-top: 0;
+  color: var(--black);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.service ul {
+  padding-left: 1.1rem;
+}
+
+/* Testimonials */
+.testimonials blockquote {
+  background: var(--gray);
+  border-left: 4px solid var(--accent);
+  margin: 1rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-style: italic;
+  color: #333;
+}
+
+.testimonials span {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Instagram */
+.instagram {
+  text-align: center;
+}
+
+.instagram .cta {
+  margin-top: 1rem;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input,
+textarea,
+select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button.cta {
+  cursor: pointer;
+  border: none;
+}
+
+/* WhatsApp Link */
+.whatsapp .cta.whatsapp {
+  background: #25d366;
+  margin-top: 0.5rem;
+}
+
+.whatsapp .cta.whatsapp:hover {
+  background: var(--black);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  color: #888;
+  font-size: 1rem;
+  background: var(--white);
+  border-top: 1px solid #eee;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .home-matrix {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, minmax(110px, 1fr));
+    max-width: 98vw;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+
+  .service-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  header.hero {
+    padding: 2rem 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-matrix {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, minmax(90px, 1fr));
+    gap: 1rem;
+    max-width: 100vw;
+  }
+
+  .cta-matrix {
+    font-size: 1.2rem;
+    padding: 1.2rem 0.5rem;
+    min-width: 0;
+    min-height: 60px;
+  }
+
+  header.hero {
+    padding: 2rem 0.5rem 1rem 0.5rem;
+  }
+
+  main {
+    padding: 1rem 0.2rem;
+  }
+}

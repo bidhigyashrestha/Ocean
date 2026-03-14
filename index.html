@@ -1,0 +1,105 @@
+    <meta name="description" content="Welcome to Ocean Shrestha's fitness website. Start your journey to a healthier you!">
+    <meta name="keywords" content="fitness, welcome, Ocean Shrestha, health, trainer, nutrition">
+    <meta name="author" content="Ocean Shrestha">
+    <meta property="og:title" content="Welcome | Ocean Shrestha">
+    <meta property="og:description" content="Welcome to Ocean Shrestha's fitness website. Start your journey to a healthier you!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/index.html">
+    <meta property="og:image" content="https://yourdomain.com/your-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Welcome | Ocean Shrestha">
+    <meta name="twitter:description" content="Welcome to Ocean Shrestha's fitness website. Start your journey to a healthier you!">
+    <meta name="twitter:image" content="https://yourdomain.com/your-image.jpg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            /* Fitness-themed animated background */
+            background: linear-gradient(120deg, #f5f5f5 0%, #e0eafc 50%, #cfdef3 100%);
+            overflow: hidden;
+        }
+
+
+        /* Deadlift SVG animation */
+        .deadlift-container {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+            height: 300px;
+            z-index: 0;
+        }
+        .deadlift-svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        /* Animate the barbell up and down */
+        .barbell {
+            transform-origin: 175px 220px;
+            animation: deadliftBar 2.2s infinite cubic-bezier(.68,-0.55,.27,1.55);
+        }
+        /* Animate the arms and legs */
+        .arm-left, .arm-right, .leg-left, .leg-right {
+            transform-box: fill-box;
+            transform-origin: bottom center;
+            animation: deadliftLimb 2.2s infinite cubic-bezier(.68,-0.55,.27,1.55);
+        }
+        @keyframes deadliftBar {
+            0% { transform: translateY(0); }
+            20% { transform: translateY(-60px); }
+            40% { transform: translateY(-70px); }
+            60% { transform: translateY(-60px); }
+            80% { transform: translateY(0); }
+            100% { transform: translateY(0); }
+        }
+        @keyframes deadliftLimb {
+            0% { }
+            20% { }
+            40% { }
+            60% { }
+            80% { }
+            100% { }
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+        .home-btn {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .home-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+        <!-- Fitness deadlift video background -->
+        <video autoplay loop muted playsinline style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);min-width:100vw;min-height:100vh;object-fit:cover;z-index:0;filter:brightness(0.7);">
+            <source src="https://videos.pexels.com/video-files/4148864/4148864-hd_1920_1080_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    <h1 style="z-index:1;">Welcome</h1>
+    <a href="home.html" class="home-btn" style="z-index:1;">Home</a>
+</body>
+</html>
